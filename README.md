@@ -1,2 +1,2 @@
 # UniverAR
-Nikita Bakmisterov 
+Бахмистеров Никита ПИб-1903а
