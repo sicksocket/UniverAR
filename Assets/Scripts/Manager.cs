@@ -20,8 +20,8 @@ public class Manager : MonoBehaviour
         {
             Vector3 targetPos1 = new Vector3(go1.transform.position.x, transform.position.y, go1.transform.position.z);
             Vector3 targetPos2 = new Vector3(go2.transform.position.x, transform.position.y, go2.transform.position.z);
-            go1.transform.LookAt(targetPos2);
-            go2.transform.LookAt(targetPos1);
+            // go1.transform.LookAt(targetPos2);
+            // go2.transform.LookAt(targetPos1);
             go1.GetComponent<Animator>().SetBool("Start", true);
             go2.GetComponent<Animator>().SetBool("Start", true);
         }
